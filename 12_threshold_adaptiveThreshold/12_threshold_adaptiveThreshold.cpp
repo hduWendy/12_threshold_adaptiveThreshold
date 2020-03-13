@@ -7,7 +7,7 @@
 using namespace cv;
 int main()
 {
-	//读取本地的一张图片处理imread("1.jpg",0)，并用两种二值化方法显示出来。
+	//读取本地的一张图片处理imread("1.jpg",0)，并用两种二值化方法显示出来!
 	//imread后面的文件路径可以根据自己的实际路径修改。
 	Mat img = imread("C:/Users/lenovo/Desktop/推文/1.jpg", 0);
 	Mat result_img_threshold, result_img_adaptiveThreshold;
