@@ -19,7 +19,7 @@ int main()
 	imshow("test", img);
 	imshow("threshold", result_img_threshold);
 	imshow("adaptiveThreshold", result_img_adaptiveThreshold);
-	//等待用户按键
+	//等待用户按键.
 	waitKey(0);
 	return 0;
 }
